@@ -1,0 +1,31 @@
+﻿  main.cpp
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(21,21): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(23,23): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(27,25): warning C4018: <: несоответствие типов со знаком и без знака
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(29,41): warning C4244: аргумент: преобразование "uint32_t" в "float", возможна потеря данных
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(29,36): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(29,33): warning C4244: аргумент: преобразование "uint32_t" в "float", возможна потеря данных
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(29,30): warning C4244: аргумент: преобразование "uint32_t" в "float", возможна потеря данных
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(32,26): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(138,73): warning C4244: аргумент: преобразование "_Ty" в "const float", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2186): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Construct_in_place<_Ty,HydraLiteMath::float3,int,Diffuse*>(_Ty &,HydraLiteMath::float3 &&,int &&,Diffuse *&&) noexcept(false)"
+          with
+          [
+              _Ty=Sfera
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2906): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<HydraLiteMath::float3,int,Diffuse*>(HydraLiteMath::float3 &&,int &&,Diffuse *&&)"
+          with
+          [
+              _Ty=Sfera
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\memory(2907): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<HydraLiteMath::float3,int,Diffuse*>(HydraLiteMath::float3 &&,int &&,Diffuse *&&)"
+          with
+          [
+              _Ty=Sfera
+          ]
+E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\main.cpp(53): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::shared_ptr<Sfera> std::make_shared<Sfera,HydraLiteMath::float3,int,Diffuse*>(HydraLiteMath::float3 &&,int &&,Diffuse *&&)"
+  lab1_grap.vcxproj -> E:\Andrey\term6\компьютерная графика\lab1\graphic\lab1_grap\x64\Debug\lab1_grap.exe
